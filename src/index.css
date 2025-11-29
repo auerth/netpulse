@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Damit es überall sauber aussieht */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+button.main {
+  background-color: #194093;
+  border: 3px solid #194093;
+  flex: 0 auto;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 0;
+  transition: border-color .4s, background-color .4s, color .4s;
+
+}
+
+button.main:hover {
+  background-color: #F7AE67 !important;
+  border: 3px solid #F7AE67 !important;
+  flex: 0 auto;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 0;
+  transition: border-color .4s, background-color .4s, color .4s;
+
+}
+
+button {
+  border-radius: 0;
+}
