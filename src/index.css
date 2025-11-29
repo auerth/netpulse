@@ -31,6 +31,20 @@ button.main:hover {
 
 }
 
-button {
-  border-radius: 0;
+.header-image{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.full-w{
+  width: 100%;
+  
+}
+
+.full-w div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  margin: auto auto;
 }
