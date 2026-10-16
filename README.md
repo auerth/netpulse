@@ -118,13 +118,21 @@ Zeitstempel,Uhrzeit,Typ,Wert(ms_oder_mbps),Status
 - Safari 14+
 - Mobile Browser (iOS Safari, Chrome Mobile)
 
+## 🔒 Datenschutz
+
+NetPulse läuft komplett im Browser, ohne Account und ohne Backend. Messwerte werden nur lokal gespeichert und nirgends hochgeladen. Für die Messung selbst verbindet sich der Browser mit externen Servern:
+
+- **Ping**: standardmäßig das Favicon von google.com (in den Einstellungen änderbar)
+- **Speedtest**: Testdateien von `speed.cloudflare.com`
+- **Schrift**: Montserrat über Google Fonts
+
 ## 📝 Lizenz
 
-Proprietary - softwelop GmbH
+[MIT](LICENSE) - © softwelop - Thorben Auer
 
 ## 👨‍💻 Autor
 
-**softwelop** - [GitHub](https://github.com/auerth)
+**softwelop - Thorben Auer** - [softwelop.com](https://softwelop.com/apps/netpulse.php) · [GitHub](https://github.com/auerth)
 
 ---
 
